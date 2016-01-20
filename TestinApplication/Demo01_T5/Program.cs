@@ -13,7 +13,6 @@ namespace Demo01_T5
             Console.Write("Anna aikamääre sekunteina: ");
             string line = Console.ReadLine(); // "50"
             int sekuntit = int.Parse(line); // 50
-            int a;
             int tunnit = sekuntit / 3600;
             int minuutit = sekuntit / 60 - tunnit * 60;
             int sekunnit = sekuntit % 60;
